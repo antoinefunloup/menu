@@ -1,0 +1,297 @@
+ShopName: Hats
+DisplayName: '&6&lHats'
+signs:
+  text: '[Hats]'
+  NeedPermissionToCreateSign: true
+shop:
+  Hat1:
+    RewardType: item
+    PriceType: money
+    Price: 500
+    Reward:
+    - - type:LEATHER_HELMET
+      - amount:1
+      - name:&aDefault Hat
+      - lore:&8Faut bien commencer par quelque part !
+    MenuItem:
+    - type:LEATHER_HELMET
+    - amount:1
+    - name:&aDefault Hat
+    - 'lore:&ePrix: 500 GenetyCoins#&8Le 1er !'
+    - amount:1
+    Message: '&aTu as obtenu le Default Hat !'
+    InventoryLocation: 1
+    ExtraPermission: ''
+  Hat2:
+    RewardType: item
+    PriceType: money
+    Price: 600
+    Reward:
+    - - type:LEATHER_HELMET
+      - amount:1
+      - color:100#149#237
+      - name:&3AquHat
+      - lore:&8~ Sous l'ocean ~
+      - enchantment:OXYGEN#5
+    MenuItem:
+    - type:LEATHER_HELMET
+    - amount:1
+    - name:&3AquHat
+    - 'lore:&ePrix: 600 GenetyCoins#&8For 1.8 lovers!'
+    - amount:1
+    - color:100#149#237
+    Message: '&aTu as obtenu le &3Aquhat&a !'
+    InventoryLocation: 2
+    ExtraPermission: ''
+  Hat3:
+    RewardType: item
+    PriceType: money
+    Price: 600
+    Reward:
+    - - type:LEATHER_HELMET
+      - amount:1
+      - color:205#0#0
+      - name:&cFire Hat
+      - lore:&8La lave ?#&8C'est de l'eau pour moi !
+      - enchantment:PROTECTION_FIRE#5
+    MenuItem:
+    - type:LEATHER_HELMET
+    - amount:1
+    - name:&cFire Hat
+    - 'lore:&ePrix: 600 GenetyCoins#&8Pour les Pyros !'
+    - amount:1
+    - color:205#0#0
+    Message: '&aTu as obtenu le &cFire Hat&a !'
+    InventoryLocation: 3
+    ExtraPermission: ''
+  Hat4:
+    RewardType: item
+    PriceType: money
+    Price: 500
+    Reward:
+    - - type:LEATHER_HELMET
+      - amount:1
+      - color:0#205#0
+      - name:&2VegetHat
+      - lore:&8Dame nature est en vous ! 
+    MenuItem:
+    - type:LEATHER_HELMET
+    - amount:1
+    - name:&2Vegethat
+    - 'lore:&ePrix: 600 GenetyCoins#&8Pour les Ecolos !'
+    - amount:1
+    - color:0#205#0
+    Message: '&aTu as obtenu le &2VegetHat&a !'
+    InventoryLocation: 4
+    ExtraPermission: ''
+  Hat5:
+    RewardType: item
+    PriceType: money
+    Price: 600
+    Reward:
+    - - type:LEATHER_HELMET
+      - amount:1
+      - color:250#128#114
+      - name:&dFall Hat
+      - lore:&8Un petit pas pour moi,#&8Un grand pour les kikoos ! 
+      - enchantment:protection_fall#5
+    MenuItem:
+    - type:LEATHER_HELMET
+    - amount:1
+    - name:&dFall Hat
+    - 'lore:&ePrix: 600 GenetyCoins#&8Pour les Astronautes !'
+    - amount:1
+    - color:250#128#114
+    Message: '&aTu as obtenu le &dFallHat&a !'
+    InventoryLocation: 5
+    ExtraPermission: ''
+  Hat6:
+    RewardType: item
+    PriceType: money
+    Price: 500
+    Reward:
+    - - type:LEATHER_HELMET
+      - amount:1
+      - color:255#215#0
+      - name:&eHippie Hat
+      - lore:&8Peace and Redstone !#&8Huuuum#&8T'en as trop pris ! 
+    MenuItem:
+    - type:LEATHER_HELMET
+    - amount:1
+    - name:&eHippie Hat
+    - 'lore:&ePrix: 600 GenetyCoins#&8Pour les Hippies !'
+    - amount:1
+    - color:255#215#0
+    Message: '&aTu as obtenu le &eHippie Hat&a !'
+    InventoryLocation: 6
+    ExtraPermission: ''
+  Hat9:
+    RewardType: command
+    PriceType: money
+    Price: 1000
+    Reward:
+    - 'give %player% skull_item 1 3 owner:%player%'
+    MenuItem:
+    - type:SKULL_ITEM:3
+    - amount:1
+    - name:&eTa tete
+    - 'lore:&ePrix: 1000 GenetyCoins'
+    - amount:1
+    Message: '&aTu as obtenu ta tete !'
+    InventoryLocation: 9
+    ExtraPermission: ''
+  Hat10:
+    RewardType: item
+    PriceType: money
+    Price: 750
+    Reward:
+    - - type:IRON_HELMET
+      - amount:1
+      - name:&7Superior Hat
+      - lore:&8Yes, We can't ! 
+      - enchantment:PROTECTION_ENVIRONMENTAL#1
+    MenuItem:
+    - type:IRON_HELMET
+    - amount:1
+    - name:&7Superior Hat
+    - 'lore:&ePrix: 750 GenetyCoins'
+    - amount:1
+    Message: '&aTu as obtenu le &7Superior Hat&a !'
+    InventoryLocation: 10
+    ExtraPermission: ''
+  Hat11:
+    RewardType: item
+    PriceType: money
+    Price: 850
+    Reward:
+    - - type:GOLD_HELMET
+      - amount:1
+      - name:&6Butter Hat
+      - lore:&8Only For Squids ! 
+      - enchantment:PROTECTION_ENVIRONMENTAL#2
+    MenuItem:
+    - type:GOLD_HELMET
+    - amount:1
+    - name:&6Butter Hat
+    - 'lore:&ePrix: 850 GenetyCoins'
+    - amount:1
+    Message: '&aTu as obtenu le &6Butter Hat&a !'
+    InventoryLocation: 11
+    ExtraPermission: ''
+  Hat12:
+    RewardType: item
+    PriceType: money
+    Price: 950
+    Reward:
+    - - type:CHAINMAIL_HELMET
+      - amount:1
+      - name:&9MegHat
+      - lore:&8Puissant ! Recommende par Bass ! 
+      - enchantment:PROTECTION_ENVIRONMENTAL#3
+    MenuItem:
+    - type:CHAINMAIL_HELMET
+    - amount:1
+    - name:&9MegHat Hat
+    - 'lore:&ePrix: 950 GenetyCoins'
+    - amount:1
+    Message: '&aTu as obtenu le &9MegHat&a !'
+    InventoryLocation: 12
+    ExtraPermission: ''
+  Hat13:
+    RewardType: item
+    PriceType: money
+    Price: 2000
+    Reward:
+    - - type:DIAMOND_HELMET
+      - amount:1
+      - name:&e&k&l||&r&4&l Ultimate Hat &e&k&l||
+      - lore:&8L'ultime !#&8Votre collection a une piece maitresse maintenant ! 
+      - enchantment:PROTECTION_ENVIRONMENTAL#5
+    MenuItem:
+    - type:DIAMOND_HELMET
+    - amount:1
+    - name:&e&k&l||&r&4 Ultimate Hat &e&k&l||
+    - 'lore:&ePrix: 2000 GenetyCoins'
+    - amount:1
+    Message: '&b&lGG ! &aTu as obtenu le &e&k&l||&r&4&l Ultimate Hat &e&k&l||&r&a !'
+    InventoryLocation: 13
+    ExtraPermission: ''
+  Hat14:
+    RewardType: shop
+    PriceType: free
+    Reward: StarHat
+    MenuItem:
+    - type:NETHER_STAR
+    - amount:1
+    - name:&6&lStar&r&a Hat
+    - 'lore:&8Tetes de stars minecraftiennes'
+    - amount:1
+    Message: ''
+    InventoryLocation: 18
+    ExtraPermission: ''
+  Hat15:
+    RewardType: shop
+    PriceType: free
+    Reward: MobHats
+    MenuItem:
+    - type:Skull_item
+    - amount:1
+    - name:&2&lMob&r&a Hat
+    - 'lore:&8Cranes des mobs'
+    - amount:1
+    Message: ''
+    InventoryLocation: 30
+    ExtraPermission: ''
+  Hat16:
+    RewardType: shop
+    PriceType: free
+    Reward: StaffHats
+    MenuItem:
+    - type:Skull_item:3
+    - amount:1
+    - name:&c&lStaff&r&a Hat
+    - 'lore:&8Tetes des membres du staff'
+    - amount:1
+    Message: ''
+    InventoryLocation: 32
+    ExtraPermission: ''
+  Hat17:
+    RewardType: shop
+    PriceType: free
+    Reward: HeroHat
+    MenuItem:
+    - type:GOLDEN_APPLE
+    - amount:1
+    - name:&1&lHero's&r&a Hat
+    - 'lore:&8Chapeaux speciaux#&8Reserve aux &aHeros !'
+    - amount:1
+    Message: ''
+    InventoryLocation: 34
+    ExtraPermission: 'access.hero'
+  Hat18:
+    RewardType: command
+    PriceType: free
+    Reward:
+    - ui
+    MenuItem:
+    - type:TORCH
+    - amount:1
+    - name:&9Rappel
+    - 'lore:&8Just4Fun !'
+    - amount:1
+    Message: '&f#&eBe &aS&f.&bW&f.&cA&f.&dG'
+    InventoryLocation: 46
+    ExtraPermission: ''
+  Exit:
+    RewardType: shop
+    PriceType: free
+    Reward: Menu
+    MenuItem:
+    - ID:324
+    - amount:1
+    - name:&cMenu Principal
+    - 'lore:&8Retour au menu principal !'
+    - amount:1
+    Message: ''
+    InventoryLocation: 54
+    ExtraPermission: ''
