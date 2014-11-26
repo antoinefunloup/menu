@@ -1,0 +1,122 @@
+ShopName: Warps
+DisplayName: '&a&lWarps'
+signs:
+  text: '[Warps]'
+  NeedPermissionToCreateSign: true
+shop:
+  Spawn:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - warp spawn
+    MenuItem:
+    - type:COMPASS
+    - amount:1
+    - name:&aSpawn
+    - lore:&8Warp au Spawn
+    - amount:1
+    InventoryLocation: 1
+    ExtraPermission: ''
+  Freebuild:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - warp freebuild
+    MenuItem:
+    - type:WOOD:1
+    - amount:1
+    - name:&aFreebuild
+    - lore:&8Warp au Freebuild
+    - amount:1
+    InventoryLocation: 3
+    ExtraPermission: ''
+  Ressources:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - warp minage
+    MenuItem:
+    - type:DIAMOND_ORE
+    - amount:1
+    - name:&aMinage
+    - lore:&8Warp au monde Minage
+    - amount:1
+    InventoryLocation: 5
+    ExtraPermission: ''
+  Nether:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - warp nether
+    MenuItem:
+    - type:NETHERRACK
+    - amount:1
+    - name:&aNether
+    - lore:&8Warp au Nether
+    - amount:1
+    InventoryLocation: 7
+    ExtraPermission: ''
+  END:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - warp end
+    MenuItem:
+    - type:ENDER_STONE
+    - amount:1
+    - name:&aThe End
+    - lore:&8Warp dans l'end
+    - amount:1
+    InventoryLocation: 9
+    ExtraPermission: ''
+  SkyWars:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - warp skywars
+    MenuItem:
+    - type:FEATHER
+    - amount:1
+    - name:&aMini-Jeux
+    - lore:&8Warp vers les Mini-Jeux#&6Coming Soon
+    - amount:1
+    InventoryLocation: 19
+    ExtraPermission: ''
+  City:
+    RewardType: command
+    PriceType: free
+    Reward:
+    - mv tp %player% city
+    MenuItem:
+    - type:BEACON
+    - amount:1
+    - name:&aVilles
+    - lore:&8Warp vers les Villes
+    - amount:1
+    InventoryLocation: 21
+    ExtraPermission: ''
+  PVE:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - warp Arenes
+    MenuItem:
+    - type:diamond_sword
+    - amount:1
+    - name:&4&l&aPVE / PVP
+    - lore:&8Warp vers les arenes PVP / PVE#&6&o! New !
+    - amount:1
+    InventoryLocation: 23
+    ExtraPermission: ''
+  Back:
+    RewardType: shop
+    PriceType: free
+    Reward: menu
+    MenuItem:
+    - type:WOOD_DOOR
+    - amount:1
+    - name:&cMenu Principal
+    - lore:&8Retour au Menu principal !
+    Message: ''
+    InventoryLocation: 27
+    ExtraPermission: ''
