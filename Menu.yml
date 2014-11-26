@@ -1,0 +1,115 @@
+ShopName: Menu
+DisplayName: '&lMenu'
+signs:
+  text: '[Menu]'
+  NeedPermissionToCreateSign: true
+shop:
+  Shop:
+    RewardType: shop
+    PriceType: free
+    Reward: BuyShop
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&e&lShop
+    - lore:&8Tu peux acheter des items ici
+    Message: ''
+    InventoryLocation: 1
+    ExtraPermission: ''
+  Ventes:
+    RewardType: shop
+    PriceType: free
+    Reward: Ventes
+    MenuItem:
+    - type:EMERALD
+    - amount:1
+    - name:&a&lVentes
+    - lore:&8Tu peux vendre tes items ici
+    Message: ''
+    InventoryLocation: 3
+    ExtraPermission: ''
+  Warps:
+    RewardType: shop
+    PriceType: free
+    Reward: Warps
+    MenuItem:
+    - type:ENDER_PEARL
+    - amount:1
+    - name:&5&lWarps
+    - lore:&8Se tp aux quatres coins du globe !
+    Message: ''
+    InventoryLocation: 5
+    ExtraPermission: ''
+  Ds:
+    RewardType: shop
+    PriceType: free
+    Reward: Disguise
+    MenuItem:
+    - type:MONSTER_EGG:120
+    - amount:1
+    - name:&3&lDeguisements
+    - lore:&8Transformation !
+    Message: ''
+    InventoryLocation: 7
+    ExtraPermission: ''
+  Commandes:
+    RewardType: shop
+    PriceType: free
+    Reward: Commandes
+    MenuItem:
+    - type:COMMAND
+    - amount:1
+    - name:&c&lCommandesShop
+    - lore:&8Tu peux acheter des nouvelles commandes ici#&6Coming Soon
+    Message: ''
+    InventoryLocation: 9
+    ExtraPermission:
+  EXPShop:
+    RewardType: shop
+    PriceType: free
+    Reward: EXPShop
+    MenuItem:
+    - type:EXP_BOTTLE
+    - amount:1
+    - name:&a&lE&b&lX&c&lP &d&lShop
+    - lore:&8Achetez avec vos niveaux !#&6Coming Soon
+    Message: ''
+    InventoryLocation: 10
+    ExtraPermission: ''
+  Staff:
+    RewardType: shop
+    PriceType: free
+    Reward: Staff
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&4&lLe staff
+    - lore:&8Qui en fait parti ?
+    Message: ''
+    InventoryLocation: 12
+    ExtraPermission: ''
+  Hats:
+    RewardType: shop
+    PriceType: free
+    Reward: Hats
+    MenuItem:
+    - type:JACK_O_LANTERN
+    - amount:1
+    - name:&6&lChapeau
+    - lore:&8Collectionnez les tous !
+    Message: ''
+    InventoryLocation: 14
+    ExtraPermission: ''
+  Player:
+    RewardType: command
+    PriceType: free
+    Reward:
+    - iu
+    MenuItem:
+    - type:SKULL_ITEM
+    - durability:3
+    - name:&bTes infos
+    - 'lore:&6Tu as &r&9%balance% GenetyCoins #&aNotre Site : &9Genety-Craft.fr#&eInfos:&9 La 1.8 approche !#&dProchain reset du minage : &90/0/0'
+    Message: '&bTu peux gagner de l''argent en combattant des monstres et en commercant !'
+    InventoryLocation: 18
+    ExtraPermission: ''
